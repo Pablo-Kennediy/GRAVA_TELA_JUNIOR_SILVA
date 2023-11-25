@@ -1,0 +1,7 @@
+body{
+    margin: 25px;
+}
+button#record-button {
+    background-color: black;
+    color: white;
+}
