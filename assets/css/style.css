@@ -3,10 +3,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-
+body{
+    background-color: black;
+}
 h1 {
     display: block;
     margin: auto;
@@ -18,10 +20,22 @@ p {
     margin: auto;
     padding: 5px;
 }
-
 header {
-    background-color: #24252a;
+    background-color: #BF5B04;
     box-shadow: 0px 3px 10px #464646;
+}
+
+main {
+    padding: 15px;
+    color: #F29F05;
+}
+
+footer {
+    background-color: #592B02;
+    display: flex;
+    min-height: 30vh;
+    color: white;
+    padding: 15%;
 }
 
 .nav-bar {
@@ -64,8 +78,9 @@ header {
 .login-button button {
     border: none;
     padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #0187a7;
+    border-radius: 50px;
+    background-color: #F2B705;
+    color: #592B02;
 }
 
 .login-button button a {
@@ -138,12 +153,6 @@ li {
     padding: 5px;
 }
 
-main {
-    background-color: black;
-    padding: 15px;
-}
-
-
 section {
     display: block;
 }
@@ -165,18 +174,14 @@ iframe {
     margin: 10%;
 }
 
-footer {
-    display: flex;
-    min-height: 30vh;
-    background-color: #24252a;
-    color: white;
-    padding: 15%;
-}
-
 footer p {
     margin: auto;
 }
 
 footer a {
     color: white;
+}
+
+img#logoCamera {
+    max-width: 50px;
 }
