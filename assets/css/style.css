@@ -32,7 +32,6 @@ main {
 
 footer {
     background-color: #592B02;
-    display: flex;
     min-height: 30vh;
     color: white;
     padding: 15%;
@@ -184,4 +183,7 @@ footer a {
 
 img#logoCamera {
     max-width: 50px;
+}
+img#iconsMoon{
+    max-width: 85px;
 }
