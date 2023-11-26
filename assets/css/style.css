@@ -160,8 +160,9 @@ div#iframe {
 
 iframe {
     display: block;
-    width: 100%;
+    width: 45%;
     height: 80vh;
+    margin: 10%;
 }
 
 footer {
